@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "build test",
+      "setup": "ant clean",
+      "run": "ant build",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    },
+    {
+      "name": "WikiCrawlerTest",
+      "setup": "ant build",
+      "run": "ant WikiCrawlerTest",
+      "input": "",
+      "output": "[junit] Tests run: 1, Failures: 0, Errors: 0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
+    }
+  ]
+}
